@@ -1,0 +1,17 @@
+
+train: /content/data/images/train # train images (relative to 'path') 128 images
+val: /content/data/images/va # val images (relative to 'path') 128 images
+test:  # test images (optional)
+
+
+# Classes
+names:
+  0: Coupe
+  1: Cab
+  2: Deportivo
+  3: HatchBack
+  
+
+
+# Download script/URL (optional)
+download: https://ultralytics.com/assets/coco128.zip
